@@ -11,7 +11,9 @@ public class DemoService {
 	
 	public void loggerStart(int num) {
 		if(num>1)
-		log.info("number more than 1");
+			log.info("number more than 1");
+		else
+			log.error("number too small");
 		
 	}
 }
