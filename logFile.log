@@ -1,0 +1,16 @@
+2025-09-01T11:26:46.286+05:30  INFO 7292 --- [loggers_1] [main] com.loggers_1.Loggers1Application        : Starting Loggers1Application using Java 21.0.6 with PID 7292 (D:\Project\STS Projects\loggers_1\target\classes started by sajid in D:\Project\STS Projects\loggers_1)
+2025-09-01T11:26:46.288+05:30  INFO 7292 --- [loggers_1] [main] com.loggers_1.Loggers1Application        : No active profile set, falling back to 1 default profile: "default"
+2025-09-01T11:26:47.114+05:30  INFO 7292 --- [loggers_1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-01T11:26:47.129+05:30  INFO 7292 --- [loggers_1] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-01T11:26:47.130+05:30  INFO 7292 --- [loggers_1] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-01T11:26:47.179+05:30  INFO 7292 --- [loggers_1] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-01T11:26:47.179+05:30  INFO 7292 --- [loggers_1] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 835 ms
+2025-09-01T11:26:47.538+05:30  INFO 7292 --- [loggers_1] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-09-01T11:26:47.545+05:30  INFO 7292 --- [loggers_1] [main] com.loggers_1.Loggers1Application        : Started Loggers1Application in 1.743 seconds (process running for 2.429)
+2025-09-01T11:26:52.740+05:30  INFO 7292 --- [loggers_1] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-01T11:26:52.740+05:30  INFO 7292 --- [loggers_1] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-09-01T11:26:52.741+05:30  INFO 7292 --- [loggers_1] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-09-01T11:26:52.781+05:30 ERROR 7292 --- [loggers_1] [http-nio-8080-exec-1] com.loggers_1.service.DemoService        : number too small
+2025-09-01T17:30:30.893+05:30  INFO 7292 --- [loggers_1] [RMI TCP Connection(315)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-09-01T17:30:30.940+05:30  INFO 7292 --- [loggers_1] [RMI TCP Connection(315)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-01T17:30:30.975+05:30  INFO 7292 --- [loggers_1] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
